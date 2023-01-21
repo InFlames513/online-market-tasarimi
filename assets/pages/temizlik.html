@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v6.0.0-beta3/css/all.css" ntegrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+  <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+
+  <link rel="stylesheet" href="../style/bootstrap.css">
+  <link rel="stylesheet" href="../style/style.css">
+  <title>Anasayfa</title>
+</head>
+<body>
+  
+  <div class="home">
+    
+      <div class="head">
+        <a href="../../index.html"><h3 class="small_photo" style="color: blueviolet;">Şahin Market</h3></a> <!-- Foto yu img klasörüne atarsın -->
+        <input type="text" name="search" id="search" class="search" placeholder="Ürün Ara..."><label for="search"><i class="fa fa-search search-button"></i></label>
+      
+        <div class="head-button-1"><a href="./hakkımızda.html"><i class="fa fa-edit" style="font-size: 20px;position: relative;top: 3px;"></i> Hakkımızda</a></div>
+        <div class="head-button-1"><a href="#"><i class="fa fa-heart"></i> İstek Listesi</a></div>
+        <div class="head-button-1"><a href="#"><i class="fa fa-shopping-cart head-button-icon"></i> Sepet</a></div>
+        <div class="head-button-1"><a href="#"><i class="fa fa-address-card head-button-icon"></i> Profil</a></div>
+      </div>
+  </div>
+  
+  <div class="mavi-bar">
+    <a href="./meyve.html" class="mavi-bar-item">Meyve</a>
+    <a href="./sebze.html" class="mavi-bar-item">Sebze</a>
+    <a href="./et.html" class="mavi-bar-item">Et Tavuk</a>
+    <a href="./şarkuteri.html" class="mavi-bar-item">Şarküteri</a>
+    <a href="./içecekler.html" class="mavi-bar-item">İçecekler</a>
+    <a href="./bakliyat.html" class="mavi-bar-item">Bakliyat</a>
+    <a href="./temizlik.html" class="mavi-bar-item">Temizlik</a>
+    <a href="./bakım.html" class="mavi-bar-item">Kişisel Bakım</a>
+    <a href="./züccaciye.html" class="mavi-bar-item">Züccaciye</a>
+  </div>
+  <br>
+  <div class="mobil-bar">
+      <!-- Top Navigation Menu -->
+      <div class="topnav">
+        <a href="#" class="active">Logo</a>
+        <div id="myLinks">
+          <a href="./meyve.html">Meyve</a>
+          <a href="./sebze.html">Sebze</a>
+          <a href="./et.html">Et Tavuk</a>
+          <a href="./şarkuteri.html">Şarküteri</a>
+          <a href="./içecekler.html">İçecekler</a>
+          <a href="./bakliyat.html">Bakliyat</a>
+          <a href="./temizlik.html">Temizlik</a>
+          <a href="./bakım.html">Kişisel Bakım</a>
+          <a href="./züccaciye.html">Züccaciye</a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars" style="color: white; background-color: transparent;"></i>
+        </a>
+      </div>
+  </div>
+
+  <div class="body">
+    <div class="selection-bar">
+      <div id="1" onclick="location.href='./meyve.html'" class="selection-bar-item">Meyve</div>
+      <div id="2" onclick="location.href='./sebze.html'" class="selection-bar-item">Sebze</div>
+      <div id="3" onclick="location.href='./et.html'" class="selection-bar-item">Et Tavuk</div>
+      <div id="6" onclick="location.href='./şarkuteri.html'" class="selection-bar-item">Şarküteri</div>
+      <div id="7" onclick="location.href='./içecekler.html'" class="selection-bar-item">İçecekler</div>
+      <div id="8" onclick="location.href='./bakliyat.html'" class="selection-bar-item">Bakliyat</div>
+      <div id="9" class="selection-bar-item select">Temizlik</div>
+      <div id="10" onclick="location.href='./bakım.html'" class="selection-bar-item">Kişisel Bakım</div>
+      <div id="11" onclick="location.href='./züccaciye.html'" class="selection-bar-item">Züccaciye</div>
+    </div>
+
+    <div class="img-block">
+      <img src="../img/big_photo.png" alt="Büyük Foto">
+    </div>
+  </div>
+
+  <section class="product-card pt-3">
+    <div class="container">
+      <header>
+        <h3 class="mb-md-3 mb-0">Haftanın Fırsatları</h3>
+      </header>
+      <div class="row">
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <figure class="card shadow">
+            <a href="#" class="img-wrap">
+              <img src="../img/temizlik/1.jpg" alt="" />
+            </a>
+            <figcaption class="info-wrap border-top">
+              <a href="#" class="float-end btn btn-light btn-icon">
+                <i class="fa fa-heart"></i>
+              </a>
+              <a href="#" class="title text-truncate"
+                >Apple Watch Yıldız Işığı Alüminyum Kasa ve Spor Kordon</a
+              >
+              <div class="price-wrap">
+                <span class="price">6.599 TL</span>
+              </div>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <figure class="card shadow">
+            <a href="#" class="img-wrap">
+              <img src="../img/temizlik/2.jpg" alt="" />
+            </a>
+            <figcaption class="info-wrap border-top">
+              <a href="#" class="float-end btn btn-light btn-icon">
+                <i class="fa fa-heart"></i>
+              </a>
+              <a href="#" class="title text-truncate"
+                >Apple Watch Yıldız Işığı Alüminyum Kasa ve Spor Kordon</a
+              >
+              <div class="price-wrap">
+                <span class="price">6.599 TL</span>
+              </div>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <figure class="card shadow">
+            <a href="#" class="img-wrap">
+              <img src="../img/temizlik/3.jpg" alt="" />
+            </a>
+            <figcaption class="info-wrap border-top">
+              <a href="#" class="float-end btn btn-light btn-icon">
+                <i class="fa fa-heart"></i>
+              </a>
+              <a href="#" class="title text-truncate"
+                >Apple Watch Yıldız Işığı Alüminyum Kasa ve Spor Kordon</a
+              >
+              <div class="price-wrap">
+                <span class="price">6.599 TL</span>
+              </div>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <figure class="card shadow">
+            <a href="#" class="img-wrap">
+              <img src="../img/temizlik/4.jpg" alt="" />
+            </a>
+            <figcaption class="info-wrap border-top">
+              <a href="#" class="float-end btn btn-light btn-icon">
+                <i class="fa fa-heart"></i>
+              </a>
+              <a href="#" class="title text-truncate"
+                >Apple Watch Yıldız Işığı Alüminyum Kasa ve Spor Kordon</a
+              >
+              <div class="price-wrap">
+                <span class="price">6.599 TL</span>
+              </div>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <figure class="card shadow">
+            <a href="#" class="img-wrap">
+              <img src="../img/temizlik/5.jpg" alt="" />
+            </a>
+            <figcaption class="info-wrap border-top">
+              <a href="#" class="float-end btn btn-light btn-icon">
+                <i class="fa fa-heart"></i>
+              </a>
+              <a href="#" class="title text-truncate"
+                >Apple Watch Yıldız Işığı Alüminyum Kasa ve Spor Kordon</a
+              >
+              <div class="price-wrap">
+                <span class="price">6.599 TL</span>
+              </div>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <figure class="card shadow">
+            <a href="#" class="img-wrap">
+              <img src="../img/temizlik/6.jpg" alt="" />
+            </a>
+            <figcaption class="info-wrap border-top">
+              <a href="#" class="float-end btn btn-light btn-icon">
+                <i class="fa fa-heart"></i>
+              </a>
+              <a href="#" class="title text-truncate"
+                >Apple Watch Yıldız Işığı Alüminyum Kasa ve Spor Kordon</a
+              >
+              <div class="price-wrap">
+                <span class="price">6.599 TL</span>
+              </div>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <figure class="card shadow">
+            <a href="#" class="img-wrap">
+              <img src="../img/temizlik/7.jpg" alt="" />
+            </a>
+            <figcaption class="info-wrap border-top">
+              <a href="#" class="float-end btn btn-light btn-icon">
+                <i class="fa fa-heart"></i>
+              </a>
+              <a href="#" class="title text-truncate"
+                >Apple Watch Yıldız Işığı Alüminyum Kasa ve Spor Kordon</a
+              >
+              <div class="price-wrap">
+                <span class="price">6.599 TL</span>
+              </div>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <figure class="card shadow">
+            <a href="#" class="img-wrap">
+              <img src="../img/temizlik/8.jpg" alt="" />
+            </a>
+            <figcaption class="info-wrap border-top">
+              <a href="#" class="float-end btn btn-light btn-icon">
+                <i class="fa fa-heart"></i>
+              </a>
+              <a href="#" class="title text-truncate"
+                >Apple Watch Yıldız Işığı Alüminyum Kasa ve Spor Kordon</a
+              >
+              <div class="price-wrap">
+                <span class="price">6.599 TL</span>
+              </div>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <figure class="card shadow">
+            <a href="#" class="img-wrap">
+              <img src="../img/temizlik/9.jpg" alt="" />
+            </a>
+            <figcaption class="info-wrap border-top">
+              <a href="#" class="float-end btn btn-light btn-icon">
+                <i class="fa fa-heart"></i>
+              </a>
+              <a href="#" class="title text-truncate"
+                >Apple Watch Yıldız Işığı Alüminyum Kasa ve Spor Kordon</a
+              >
+              <div class="price-wrap">
+                <span class="price">6.599 TL</span>
+              </div>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <figure class="card shadow">
+            <a href="#" class="img-wrap">
+              <img src="../img/temizlik/10.jpg" alt="" />
+            </a>
+            <figcaption class="info-wrap border-top">
+              <a href="#" class="float-end btn btn-light btn-icon">
+                <i class="fa fa-heart"></i>
+              </a>
+              <a href="#" class="title text-truncate"
+                >Apple Watch Yıldız Işığı Alüminyum Kasa ve Spor Kordon</a
+              >
+              <div class="price-wrap">
+                <span class="price">6.599 TL</span>
+              </div>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <figure class="card shadow">
+            <a href="#" class="img-wrap">
+              <img src="../img/temizlik/11.jpg" alt="" />
+            </a>
+            <figcaption class="info-wrap border-top">
+              <a href="#" class="float-end btn btn-light btn-icon">
+                <i class="fa fa-heart"></i>
+              </a>
+              <a href="#" class="title text-truncate"
+                >Apple Watch Yıldız Işığı Alüminyum Kasa ve Spor Kordon</a
+              >
+              <div class="price-wrap">
+                <span class="price">6.599 TL</span>
+              </div>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <figure class="card shadow">
+            <a href="#" class="img-wrap">
+              <img src="../img/temizlik/12.jpg" alt="" />
+            </a>
+            <figcaption class="info-wrap border-top">
+              <a href="#" class="float-end btn btn-light btn-icon">
+                <i class="fa fa-heart"></i>
+              </a>
+              <a href="#" class="title text-truncate"
+                >Apple Watch Yıldız Işığı Alüminyum Kasa ve Spor Kordon</a
+              >
+              <div class="price-wrap">
+                <span class="price">6.599 TL</span>
+              </div>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </div>
+  </section>
+  <br>
+  <footer class="py-4 bg-primary" style="background-color: #6610f2;">
+    <div class="container" style="background-color: #6610f2;">
+      <div class="row gy-3" style="background-color: #6610f2;">
+        <div class="col-md-4" style="background-color: #6610f2;">
+          <form style="background-color: #6610f2;">
+            <div class="input-group" style="background-color: #6610f2;">
+              <input type="text" class="form-control" placeholder="Yenilikler için takip et" />
+              <button type="button" class="btn btn-outline-warning" style="background-color: #6610f2;">
+                Takip Et
+              </button>
+            </div>
+          </form>
+        </div>
+        <div class="col-md-8" style="background-color: #6610f2;">
+          <nav class="text-md-end text-center" style="background-color: #6610f2;">
+            <a href="#" class="btn-icon btn btn-outline-warning">
+              <i class="fab fa-facebook-f" style="background-color: #6610f2;"></i>
+            </a>
+            <a href="#" class="btn-icon btn btn-outline-warning">
+              <i class="fab fa-instagram" style="background-color: #6610f2;"></i>
+            </a>
+            <a href="#" class="btn-icon btn btn-outline-warning">
+              <i class="fab fa-youtube" style="background-color: #6610f2;"></i>
+            </a>
+            <a href="#" class="btn-icon btn btn-outline-warning">
+              <i class="fab fa-twitter" style="background-color: #6610f2;"></i>
+            </a>
+          </nav>
+        </div>
+        <div class="col-md-12" style="background-color: #6610f2;">
+          <p class="text-white text-center" style="background-color: #6610f2;">@2025 Tüm Hakları Saklıdır</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+</body>
+
+<script src="../js/bootstrap.bundle.js"></script>
+<script src="../js/index.js"></script>
+</html>

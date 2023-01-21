@@ -1,0 +1,258 @@
+@import url("https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i&display=swap&subset=cyrillic");
+
+body {
+  margin: 0;
+  font-family: "Rubik", sans-serif;
+}
+
+* {
+  text-decoration: none;
+  background-color: white;
+}
+
+::selection {
+  display: none;
+  background-color: none;
+  /* color: transparent; */
+}
+
+
+/*****************   Üst Bar   *****************/
+
+
+.home {
+  width: 90%;
+  margin: 10px auto;
+}
+
+.head {
+  padding: 5px;
+}
+
+.head a {
+  text-decoration: none;
+  color: blueviolet;
+}
+
+.small_photo {
+  width: 200px;  /* Bunu ayarlarsın foto boyutu */
+  float: left;
+  margin: 12px 15px;
+}
+
+.search {
+  /* border-top: none;
+  border-left: none;
+  border-right: none; */
+  border-width: 1px;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: rgb(197, 197, 197);
+  margin: 5px;
+  padding: 10px 30px;
+  width: 20rem;
+  outline: none !important;
+}
+
+.search:focus {
+  border-color: blueviolet; /* Arama kutusuna basınca alttaki border rengi */
+}
+
+.search-button {
+  font-size: 24px;
+  position: relative;
+  right: 35px;
+  top: 2px;
+}
+
+.search:focus + label i {
+  color: blueviolet
+}
+
+.head-button-1 {
+  float: right;
+  margin: 5px 10px;
+  border-radius: 20px;
+  padding: 10px;
+  background-color: #fff /* Butonların arka plan rengi */
+}
+
+.head-button-1 a {
+  color: black;
+  text-decoration: none;
+}
+
+.head-button-icon {
+  color: black; /* Üstteki butonların rengini ayarlar. */
+  background-color: transparent;
+}
+
+
+
+/*****************   ÜST NAVBAR   *****************/
+
+.mavi-bar {
+  margin-top: 20px;
+  background-color: blueviolet;
+  padding: 25px 6rem;
+}
+
+.mavi-bar-item {
+  background-color: transparent;
+  margin: 0 10px;
+  color: white;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.mavi-bar-item:hover {
+  position: relative;
+  color: white;
+  bottom: 1px;
+}
+
+.mobil-bar {
+  display: none;
+}
+
+
+/*****************  Gövde   *****************/
+
+.body {
+  display: flex;
+}
+
+
+/*****************  SELECTİON BAR   *****************/
+
+.selection-bar {  /* Selection Bar classı*/
+  width: 18rem;
+  height: 19.9rem;
+  margin: 30px 12%;
+  margin-right: 100px;
+  border: 1px solid rgb(197, 197, 197);
+  border-radius: 10px;
+  box-shadow: 3px 3px 10px 0.5px rgba(156, 76, 230, 0.562);
+  overflow: auto;
+  padding: 4px;
+}
+
+.selection-bar-item { /* Selection bardaki itemler */
+  padding: 10px;
+  text-align: center;
+  font-size: large;
+  font-weight: 600;
+  border-radius: 10px;
+  color: rgb(109, 109, 109);
+  border: 0.5px solid rgb(197, 197, 197); /* Bu borderı kaldırabilirsin */
+  margin: 2px 0;
+}
+
+.selection-bar-item:hover {
+  background-color: rgb(211, 203, 203);
+  color: #fff;
+}
+
+.select { /* Seçilen itemin classı */
+  background-color: blueviolet;
+  color: rgb(241, 241, 56);
+}
+
+.select:hover {
+  background-color: blueviolet;
+  color: rgb(241, 241, 56);
+}
+
+/* scrollbar */
+
+::-webkit-scrollbar {
+  width: 10px;
+  border-radius: 10px;
+  background-color: transparent;
+  display: none;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+  border-radius: 10px;
+}
+
+/* scrollbar */
+
+
+/*****************  Body IMG Block   *****************/
+/* Buraya sen artık foto mu koyarsın yazı mı yazarsın istediğinn gibi yap */
+
+.img-block {
+  width: 40rem;
+  height: 20rem;
+  margin: 35px 0;
+  float: right;
+}
+
+.img-block img {
+  border-radius: 10px;
+}
+
+
+/*****************   Main   *****************/
+
+.metinler {
+  position: relative;
+  left: 10px;
+}
+
+
+/*****************   MOBİL BAR *****************/
+
+.topnav {
+  overflow: hidden;
+  background-color: blueviolet;
+  position: relative;
+}
+
+.topnav #myLinks {
+  display: none;
+  background-color: blueviolet;
+}
+
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+  background-color: blueviolet;
+}
+
+.topnav a.icon {
+  background-color: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.active {
+  background-color: blueviolet;
+}
+
+/*****************   MOBİL   *****************/
+
+
+@media (max-width: 500px) {
+  .img-block, .selection-bar, .mavi-bar, .head-button-1, .search, .search-button {
+    display: none;
+  }
+
+  .mobil-bar {
+    display: block;
+  }
+}
