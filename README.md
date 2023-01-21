@@ -4,7 +4,7 @@ Kodlar tamamen bana aittir boostrap, fontawasome kullanılmıştır ve sadece ht
 Site sadece anasayfa ürünler kısmı ve hakkımızda sayfası içeriyor. Bazı sayfaların görselleri eksik img klasör içerisine pages klasöründeki dosyaların ismi ile aynı (uzantı dahil değil) isimde bir klasör açın ve görselleri jpg türünde 1 den 12 ye kadar aritmatik isimlendirerek yazın ve hazır.
 <br>
 # Görseller
-![örnek_gif](https://inflames.please-fuck.me/5Tph5MyNA.gif)
+![](https://inflames.please-fuck.me/5Tph5MyNA.gif)
 <br>
 # İletişim
 Yardıma ihtiyacınız olursa: <br>
